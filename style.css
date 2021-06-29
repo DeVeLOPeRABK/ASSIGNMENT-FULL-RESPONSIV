@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+body, h1, h2, h3, h4, h5, h6, strong, span, a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    width: 100%;
+}
+/* Nav css start  */
+.nav-item.n_item {
+    margin-left: 17px;
+    font-size: 17px;
+}
+
+.dropdown-menu.d_menu1 {
+    background: red;
+    width: 200px;
+}
+/*Nav css end */
+/* <!-- HERO SECTION STRAR --> */
+
+.hero{
+    background:#f9f9ff;
+}
+.hero .h_item{
+    margin-top: 157px;
+}
+.hero .h_item h4{
+    font-weight: 400;
+}
+.hero .h_item h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+.hero .h_item p{}
+.hero .h_item a {
+    background: #8490ff;
+    border: none;
+    outline: none;
+    transition:.7s;
+}
+.hero .h_item a:hover{
+    background: #feb896;
+}
+/* <!-- HERO SECTION END --> */
+/*about section start */
+.about_item {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.abouts .about_m_img{}
+.about_item{}
+.about_item h4 {
+    font-weight: 400;
+}
+.about_item h1 {
+    font-weight: 500;
+    font-size: 43px;
+}
+.about_item p {
+    font-weight: 500;
+}
+.about_item a {
+    background: red;
+    border: none;
+    background: #8490ff;
+}
+
+.about_item a:hover{
+    background: #feb896;
+}
+
+
+/*about section end */
+
+/*PRICING SECTION START*/
+.pricing{
+    background:#8490ff;
+}
+.price{}
+.price h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.price span {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+/*PRICING SECTION END*/
+
+/*APPLICATION SECTION START*/
+.application_detail{
+    background:#f9f9ff;
+}
+.application_detail .a_title{}
+.application_detail .a_title h1{}
+.application_detail .a_title p{
+    font: size 20px;
+    font-weight: 300;
+}
+.application {
+    background: #ffffff;
+    box-shadow: 2px 3px 10px -3px #6278df6e;
+}
+.application:hover span{
+    background: #6278df;
+}
+.application span {
+    height: 100px;
+    width: 100px;
+    background: #f9f9ff;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 44px;
+    margin-top: 9px;
+    transition: all 0.9s ease-in-out;
+}
+.application h3 {
+    font-weight: 400;
+    padding: 7px;
+    font-size: 23px;
+}
+.application h4 {
+    font-size: 19px;
+    color: #000;
+    font-weight: 400;
+}
+.application h2 {
+    padding: 20px;
+    font-size: 23px;
+    color: #000;
+    font-weight: 300;
+    opacity: .7;
+}
+.application a {
+    background: none;
+    border: 2px solid #8791f2a1;
+    padding: 8px 20px;
+    margin-bottom: 50px;
+    color: #6278df;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.9s ease-in-out;
+}
+.application:hover.application a{
+    color: #ffffff;
+    background: none;
+    background-color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/*APPLICATION SECTION END*/
+.times{}
+.tim_m_img {
+    position: absolute;
+    top: -76px;
+    left: 0;
+}
+.tim_member {
+    position: relative;
+}
+.tim_m_img img {
+    width: 100px;
+    height: 100px;
+}
+.tim_m_detail{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.tim_m_detail {
+    margin-top: 153px;
+}
+.tim_m_detail h2 {
+    padding: 40px 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+.tim_m_detail span {
+    padding-bottom: 25px;
+    display: inline-block;
+    font-weight: 500;
+    opacity: .9;
+    font-size: 18px;
+}
+.tim_m_detail p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.tim_btn  {
+    box-shadow: 3px 3px 27px -3px #6278df45;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+/* <!--Contact SECTION START --> */
+.contact{
+    background:#f9f9ff;
+}
+.contact_form {
+    box-shadow: rgba(158, 172, 223, 0.7) 0px 3px 8px;
+    background:#ffffff;
+}
+.contact_form h2{}
+.mail {
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    font-size: 19px;
+}
+.c_form{
+    width: 84%;
+    margin: auto;
+}
+.form-control.c_textarea {
+    width: 80%;
+
+}
+/* <!--Contact SECTION END --> */
+/* FOOTER SECTION  */
+.footer{
+    background-color:#04091e;
+}
+.foot_er{}
+.foot_er p{
+    color: white;
+    font-size:19px;
+}
+
+
+@media (max-width:1200px){
+    .about_item h1 {
+        font-size: 40px;
+        padding: 11px 0 !important;
+    }
+    .tim_m_img {
+        position: absolute;
+        top: -76px;
+        left: 30%;
+    }
+}
+@media (max-width:1180px){
+    .application h2 {
+        padding: 8px;
+        font-size: 21px;
+    }
+    
+}
+
+@media (max-width:992px){
+    .hero .h_item {
+        margin-top: 70px;
+    }
+    .hero .h_item h1 {
+        font-size: 39px;
+    }
+    .hero .h_item h1 {
+        font-size: 39px;
+        padding: 5px 0 !important;
+    }
+    .about_item h1 {
+        font-size: 37px;
+        padding: 7px 0 !important;
+    }
+    .about_item {
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+    .col-md-12 {
+        margin-bottom: 14px;
+    }
+    .tim_m_img img {
+        border-radius: 50%;
+    }
+    .tim_m_detail {
+        margin-top: 120px;
+        border-radius: 20px;
+    }
+    .tim_m_img {
+        position: absolute;
+        top: -76px;
+        left: 38%;
+    }
+    .application {
+        margin-top: 14px;
+    }
+    .row.banner-flex {
+        align-items: center;
+    }
+    
+}
+@media (max-width: 768px){
+    .hero .h_item {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about_item h1 {
+        font-size: 29px;
+        padding: 0px 0 !important;
+    }
+    .about_item {
+        margin-left: 0px;
+    }
+    .about_item p {
+        font-weight: 300;
+    }
+    .about_item a {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .tim_m_img {
+        left: 31% !important;
+    }
+    .about_item {
+        text-align: center;
+        margin-top: 23px;
+    }
+    .price {
+        margin-bottom: 30px;
+    }
+    .hero .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner_back_img{
+        width: 100%;
+    }
+}
+@media (max-width:576px){
+    .hero .h_item h1 {
+        font-size: 30px;
+        padding: 5px 0 !important;
+    }
+    .hero .h_item a {
+        margin-top: 6px !important;
+    }
+    .about_item a {
+        top: 0;
+        left: 0 !important;
+    }
+    .price {
+        border-bottom: 1px solid #ddd;
+    }
+    
+    
+}
